@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Text('hello\nFlutter', textAlign: TextAlign.center),
-    );
+      home: Center(
+        child: Text('hello\nFlutter', textAlign: TextAlign.center),
+      ));
   }
 }
 
